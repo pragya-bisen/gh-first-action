@@ -1,0 +1,10 @@
+name: First workflow
+on: workflow_dispatch
+jobs:
+  first_job:
+    runs-on: ubantu_latest
+    steps: 
+      - name: Print greeting
+        run: echo "Hello World!"
+      - name: Print Good bye
+        run: echo "Done Bye!"
